@@ -1,0 +1,1545 @@
+[
+    {
+        "area": "upphandlingsstatistik",
+        "products": [
+            {
+                "product": "annonserade-upphandlingar-i-sverige",
+                "units": [
+                    {
+                        "unit": "Antal anbud",
+                        "distributedUnits": [
+                            {
+                                "distributedUnit": "Upphandlingar, Bas.Antal anbud",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": "Köpare",
+                                        "text": "Vem köper?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Köpare",
+                                                "text": "Variabler som ger statistik om vem som upphandlar utifrån olika variabler.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för köpare",
+                                                        "value": "Köpare.Namn för köpare",
+                                                        "description": "Variabeln visar det officiella namnet på köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Organisationsnummer för köpare",
+                                                        "value": "Köpare.Organisationsnummer för köpare",
+                                                        "description": "Variabeln visar organisationsnummer för köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för köpare",
+                                                        "value": "Köpare.Sektor för köpare",
+                                                        "description": "Variabeln visar vilken sektor som köparen tillhör. Sektor är stat, region, kommun eller annat."
+                                                    },
+                                                    {
+                                                        "name": "Delsektor för köpare",
+                                                        "value": "Köpare.Delsektor för köpare",
+                                                        "description": "Variabeln visar vilken delsektor som köparen tillhör. Delsektor är stat, region, kommun samt organisationer ägda av dessa."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för köpare",
+                                                        "value": "Köpare.Juridisk form för köpare",
+                                                        "description": "Variabeln visar juridisk form för köparen."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Avdelning för köpare",
+                                                        "value": "Köpare.SNI-Avdelning för köpare",
+                                                        "description": "Variabeln visar SNI-Avdelning för köparen. SNI avser standard för svensk näringsgrensindelning."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Föremålet för inköp",
+                                        "text": "Vad köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Upphandlingsslag",
+                                                "text": "Variabler som ger statistik om vad som upphandlas efter upphandlingsslag.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlingsslag",
+                                                        "value": "Upphandlingsslag.Upphandlingsslag",
+                                                        "description": "Variabeln visar om upphandlingen huvudsakligen avser varor, tjänster eller byggentreprenader."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Huvudsaklig CPV-kod",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt CPV. Variabeln visar klassificering av upphandlingen enligt huvudsaklig CPV-kod.",
+                                                "properties": [
+                                                    {
+                                                        "name": "CPV-Huvudgrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Huvudgrupp",
+                                                        "description": "Huvudgrupp avser de två första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Grupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Grupp",
+                                                        "description": "Grupp avser de tre första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Undergrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Undergrupp",
+                                                        "description": "Undergrupp avser de fyra första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Kategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Kategori",
+                                                        "description": "Kategori avser de fem första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Underkategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Underkategori",
+                                                        "description": "Ytterligare precisering inom varje CPV-kategori."
+                                                    },
+                                                    {
+                                                        "name": "Huvudsaklig CPV-kod",
+                                                        "value": "Huvudsaklig CPV-kod.Huvudsaklig CPV-kod",
+                                                        "description": "Variabeln visar klassificering av upphandlingen enligt CPV-kod. Huvudklassificeringskod avser den kod som bäst beskriver föremålet för upphandlingen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Genomförande",
+                                        "text": "Hur köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Förfarande, metoder och krav",
+                                                "text": "Variabler som ger statistik om hur upphandlingen har genomförts.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Rättslig grund",
+                                                        "value": "Förfarande, metoder och krav.Rättslig grund",
+                                                        "description": "Variabeln visar den rättsliga grunden enligt vilken upphandlingen genomförs."
+                                                    },
+                                                    {
+                                                        "name": "Direktivstyrd",
+                                                        "value": "Förfarande, metoder och krav.Direktivstyrd",
+                                                        "description": "Variabel visar om upphandlingen är direktivstyrd. Med direktivstyrd avses som regel upphandlingar som omfattas av EU:s upphandlingsdirektiv."
+                                                    },
+                                                    {
+                                                        "name": "Förfarande",
+                                                        "value": "Förfarande, metoder och krav.Förfarande",
+                                                        "description": "Variabeln visar vilken typ av upphandlingsförfarande som används i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Typ av avtal",
+                                                        "value": "Förfarande, metoder och krav.Typ av avtal",
+                                                        "description": "Variabeln visar om upphandlingen avser tecknande av kontrakt eller ingående av ramavtal."
+                                                    },
+                                                    {
+                                                        "name": "Dynamiskt inköpssystem",
+                                                        "value": "Förfarande, metoder och krav.Dynamiskt inköpssystem",
+                                                        "description": "Variabeln visar om upphandlingen avser inrättande av ett dynamiskt inköpssystem."
+                                                    },
+                                                    {
+                                                        "name": "Elektronisk auktion",
+                                                        "value": "Förfarande, metoder och krav.Elektronisk auktion",
+                                                        "description": "Variabeln visar om elektronisk auktion har använts i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Anbudsområden",
+                                                        "value": "Förfarande, metoder och krav.Anbudsområden",
+                                                        "description": "Variabeln visar om upphandlingen är indelad flera anbudsområden."
+                                                    },
+                                                    {
+                                                        "name": "Samordnad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Samordnad upphandling",
+                                                        "description": "Variabeln visar om upphandlingen är samordnad eller inte. Med samordnad avses att upphandlingen genomförs av flera köpare tillsammans."
+                                                    },
+                                                    {
+                                                        "name": "Miljömässigt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Miljömässigt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att minska upphandlingens miljöpåverkan."
+                                                    },
+                                                    {
+                                                        "name": "Socialt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Socialt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att uppfylla sociala mål."
+                                                    },
+                                                    {
+                                                        "name": "Innovationsupphandling",
+                                                        "value": "Förfarande, metoder och krav.Innovationsupphandling",
+                                                        "description": "Variabeln visar om upphandlingen syftar till att främja innovation genom att efterfråga eller tillåta nya lösningar när byggentreprenader, varor eller tjänster upphandlas."
+                                                    },
+                                                    {
+                                                        "name": "Reserverad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Reserverad upphandling",
+                                                        "description": "Variabeln visar om deltagandet i upphandlingen är reserverat för särskilda organisationer."
+                                                    },
+                                                    {
+                                                        "name": "Reserverat genomförande",
+                                                        "value": "Förfarande, metoder och krav.Reserverat genomförande",
+                                                        "description": "Variabeln visar om genomförandet av kontraktet måste ske inom ramen för program för skyddad anställning."
+                                                    },
+                                                    {
+                                                        "name": "Annonsdatabas",
+                                                        "value": "Förfarande, metoder och krav.Annonsdatabas",
+                                                        "description": "Variabeln visar namnet på den annonsdatabas där upphandlingen ursprungligen publicerades."
+                                                    },
+                                                    {
+                                                        "name": "Överprövad",
+                                                        "value": "Förfarande, metoder och krav.Överprövad",
+                                                        "description": "Variabeln visar om upphandlingen har överprövats eller inte."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per upphandling",
+                                                "text": "Variabler som ger statistik om en specifik upphandling.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlings-ID",
+                                                        "value": "Information per upphandling.Upphandlings-ID",
+                                                        "description": "Med upphandlings-ID avses ett unikt identifikationsnummer för upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Upphandlingens titel",
+                                                        "value": "Information per upphandling.Upphandlingens titel",
+                                                        "description": "Variabeln visar namnet på upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Publiceringsdatum",
+                                                        "value": "Information per upphandling.Publiceringsdatum",
+                                                        "description": "Variabeln visar upphandlingens publiceringsdatum."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per anbudsområde",
+                                                "text": "Variabler som ger statistik om ett specifikt anbudsområde.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Anbudsområdes-ID",
+                                                        "value": "Information per anbudsområde.Anbudsområdes-ID",
+                                                        "description": "Med anbudsområdes-ID avses ett unikt identifikationsnummer för ett anbudsområde i en upphandling."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "unit": "Antal kontrakterade anbud",
+                        "distributedUnits": [
+                            {
+                                "distributedUnit": "Upphandlingar, Bas.Antal kontrakterade anbud",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": "Köpare",
+                                        "text": "Vem köper?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Köpare",
+                                                "text": "Variabler som ger statistik om vem som upphandlar utifrån olika variabler.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för köpare",
+                                                        "value": "Köpare.Namn för köpare",
+                                                        "description": "Variabeln visar det officiella namnet på köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Organisationsnummer för köpare",
+                                                        "value": "Köpare.Organisationsnummer för köpare",
+                                                        "description": "Variabeln visar organisationsnummer för köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för köpare",
+                                                        "value": "Köpare.Sektor för köpare",
+                                                        "description": "Variabeln visar vilken sektor som köparen tillhör. Sektor är stat, region, kommun eller annat."
+                                                    },
+                                                    {
+                                                        "name": "Delsektor för köpare",
+                                                        "value": "Köpare.Delsektor för köpare",
+                                                        "description": "Variabeln visar vilken delsektor som köparen tillhör. Delsektor är stat, region, kommun samt organisationer ägda av dessa."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för köpare",
+                                                        "value": "Köpare.Juridisk form för köpare",
+                                                        "description": "Variabeln visar juridisk form för köparen."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Avdelning för köpare",
+                                                        "value": "Köpare.SNI-Avdelning för köpare",
+                                                        "description": "Variabeln visar SNI-Avdelning för köparen. SNI avser standard för svensk näringsgrensindelning."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Föremålet för inköp",
+                                        "text": "Vad köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Upphandlingsslag",
+                                                "text": "Variabler som ger statistik om vad som upphandlas efter upphandlingsslag.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlingsslag",
+                                                        "value": "Upphandlingsslag.Upphandlingsslag",
+                                                        "description": "Variabeln visar om upphandlingen huvudsakligen avser varor, tjänster eller byggentreprenader."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Huvudsaklig CPV-kod",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt CPV. Variabeln visar klassificering av upphandlingen enligt huvudsaklig CPV-kod.",
+                                                "properties": [
+                                                    {
+                                                        "name": "CPV-Huvudgrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Huvudgrupp",
+                                                        "description": "Huvudgrupp avser de två första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Grupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Grupp",
+                                                        "description": "Grupp avser de tre första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Undergrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Undergrupp",
+                                                        "description": "Undergrupp avser de fyra första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Kategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Kategori",
+                                                        "description": "Kategori avser de fem första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Underkategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Underkategori",
+                                                        "description": "Ytterligare precisering inom varje CPV-kategori."
+                                                    },
+                                                    {
+                                                        "name": "Huvudsaklig CPV-kod",
+                                                        "value": "Huvudsaklig CPV-kod.Huvudsaklig CPV-kod",
+                                                        "description": "Variabeln visar klassificering av upphandlingen enligt CPV-kod. Huvudklassificeringskod avser den kod som bäst beskriver föremålet för upphandlingen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Genomförande",
+                                        "text": "Hur köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Förfarande, metoder och krav",
+                                                "text": "Variabler som ger statistik om hur upphandlingen har genomförts.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Rättslig grund",
+                                                        "value": "Förfarande, metoder och krav.Rättslig grund",
+                                                        "description": "Variabeln visar den rättsliga grunden enligt vilken upphandlingen genomförs."
+                                                    },
+                                                    {
+                                                        "name": "Direktivstyrd",
+                                                        "value": "Förfarande, metoder och krav.Direktivstyrd",
+                                                        "description": "Variabel visar om upphandlingen är direktivstyrd. Med direktivstyrd avses som regel upphandlingar som omfattas av EU:s upphandlingsdirektiv."
+                                                    },
+                                                    {
+                                                        "name": "Förfarande",
+                                                        "value": "Förfarande, metoder och krav.Förfarande",
+                                                        "description": "Variabeln visar vilken typ av upphandlingsförfarande som används i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Typ av avtal",
+                                                        "value": "Förfarande, metoder och krav.Typ av avtal",
+                                                        "description": "Variabeln visar om upphandlingen avser tecknande av kontrakt eller ingående av ramavtal."
+                                                    },
+                                                    {
+                                                        "name": "Dynamiskt inköpssystem",
+                                                        "value": "Förfarande, metoder och krav.Dynamiskt inköpssystem",
+                                                        "description": "Variabeln visar om upphandlingen avser inrättande av ett dynamiskt inköpssystem."
+                                                    },
+                                                    {
+                                                        "name": "Elektronisk auktion",
+                                                        "value": "Förfarande, metoder och krav.Elektronisk auktion",
+                                                        "description": "Variabeln visar om elektronisk auktion har använts i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Anbudsområden",
+                                                        "value": "Förfarande, metoder och krav.Anbudsområden",
+                                                        "description": "Variabeln visar om upphandlingen är indelad flera anbudsområden."
+                                                    },
+                                                    {
+                                                        "name": "Samordnad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Samordnad upphandling",
+                                                        "description": "Variabeln visar om upphandlingen är samordnad eller inte. Med samordnad avses att upphandlingen genomförs av flera köpare tillsammans."
+                                                    },
+                                                    {
+                                                        "name": "Miljömässigt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Miljömässigt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att minska upphandlingens miljöpåverkan."
+                                                    },
+                                                    {
+                                                        "name": "Socialt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Socialt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att uppfylla sociala mål."
+                                                    },
+                                                    {
+                                                        "name": "Innovationsupphandling",
+                                                        "value": "Förfarande, metoder och krav.Innovationsupphandling",
+                                                        "description": "Variabeln visar om upphandlingen syftar till att främja innovation genom att efterfråga eller tillåta nya lösningar när byggentreprenader, varor eller tjänster upphandlas."
+                                                    },
+                                                    {
+                                                        "name": "Reserverad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Reserverad upphandling",
+                                                        "description": "Variabeln visar om deltagandet i upphandlingen är reserverat för särskilda organisationer."
+                                                    },
+                                                    {
+                                                        "name": "Reserverat genomförande",
+                                                        "value": "Förfarande, metoder och krav.Reserverat genomförande",
+                                                        "description": "Variabeln visar om genomförandet av kontraktet måste ske inom ramen för program för skyddad anställning."
+                                                    },
+                                                    {
+                                                        "name": "Annonsdatabas",
+                                                        "value": "Förfarande, metoder och krav.Annonsdatabas",
+                                                        "description": "Variabeln visar namnet på den annonsdatabas där upphandlingen ursprungligen publicerades."
+                                                    },
+                                                    {
+                                                        "name": "Överprövad",
+                                                        "value": "Förfarande, metoder och krav.Överprövad",
+                                                        "description": "Variabeln visar om upphandlingen har överprövats eller inte."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per upphandling",
+                                                "text": "Variabler som ger statistik om en specifik upphandling.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlings-ID",
+                                                        "value": "Information per upphandling.Upphandlings-ID",
+                                                        "description": "Med upphandlings-ID avses ett unikt identifikationsnummer för upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Upphandlingens titel",
+                                                        "value": "Information per upphandling.Upphandlingens titel",
+                                                        "description": "Variabeln visar namnet på upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Publiceringsdatum",
+                                                        "value": "Information per upphandling.Publiceringsdatum",
+                                                        "description": "Variabeln visar upphandlingens publiceringsdatum."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per anbudsområde",
+                                                "text": "Variabler som ger statistik om ett specifikt anbudsområde.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Anbudsområdes-ID",
+                                                        "value": "Information per anbudsområde.Anbudsområdes-ID",
+                                                        "description": "Med anbudsområdes-ID avses ett unikt identifikationsnummer för ett anbudsområde i en upphandling."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "unit": "Antal kontrakterade anbud*",
+                        "distributedUnits": [
+                            {
+                                "distributedUnit": "Upphandlingar, Bas.Antal kontrakterade anbud*",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": "Köpare",
+                                        "text": "Vem köper?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Köpare",
+                                                "text": "Variabler som ger statistik om vem som upphandlar utifrån olika variabler.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för köpare",
+                                                        "value": "Köpare.Namn för köpare",
+                                                        "description": "Variabeln visar det officiella namnet på köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Organisationsnummer för köpare",
+                                                        "value": "Köpare.Organisationsnummer för köpare",
+                                                        "description": "Variabeln visar organisationsnummer för köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för köpare",
+                                                        "value": "Köpare.Sektor för köpare",
+                                                        "description": "Variabeln visar vilken sektor som köparen tillhör. Sektor är stat, region, kommun eller annat."
+                                                    },
+                                                    {
+                                                        "name": "Delsektor för köpare",
+                                                        "value": "Köpare.Delsektor för köpare",
+                                                        "description": "Variabeln visar vilken delsektor som köparen tillhör. Delsektor är stat, region, kommun samt organisationer ägda av dessa."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för köpare",
+                                                        "value": "Köpare.Juridisk form för köpare",
+                                                        "description": "Variabeln visar juridisk form för köparen."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Avdelning för köpare",
+                                                        "value": "Köpare.SNI-Avdelning för köpare",
+                                                        "description": "Variabeln visar SNI-Avdelning för köparen. SNI avser standard för svensk näringsgrensindelning."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Föremålet för inköp",
+                                        "text": "Vad köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Upphandlingsslag",
+                                                "text": "Variabler som ger statistik om vad som upphandlas efter upphandlingsslag.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlingsslag",
+                                                        "value": "Upphandlingsslag.Upphandlingsslag",
+                                                        "description": "Variabeln visar om upphandlingen huvudsakligen avser varor, tjänster eller byggentreprenader."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Huvudsaklig CPV-kod",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt CPV. Variabeln visar klassificering av upphandlingen enligt huvudsaklig CPV-kod.",
+                                                "properties": [
+                                                    {
+                                                        "name": "CPV-Huvudgrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Huvudgrupp",
+                                                        "description": "Huvudgrupp avser de två första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Grupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Grupp",
+                                                        "description": "Grupp avser de tre första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Undergrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Undergrupp",
+                                                        "description": "Undergrupp avser de fyra första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Kategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Kategori",
+                                                        "description": "Kategori avser de fem första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Underkategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Underkategori",
+                                                        "description": "Ytterligare precisering inom varje CPV-kategori."
+                                                    },
+                                                    {
+                                                        "name": "Huvudsaklig CPV-kod",
+                                                        "value": "Huvudsaklig CPV-kod.Huvudsaklig CPV-kod",
+                                                        "description": "Variabeln visar klassificering av upphandlingen enligt CPV-kod. Huvudklassificeringskod avser den kod som bäst beskriver föremålet för upphandlingen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Genomförande",
+                                        "text": "Hur köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Förfarande, metoder och krav",
+                                                "text": "Variabler som ger statistik om hur upphandlingen har genomförts.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Rättslig grund",
+                                                        "value": "Förfarande, metoder och krav.Rättslig grund",
+                                                        "description": "Variabeln visar den rättsliga grunden enligt vilken upphandlingen genomförs."
+                                                    },
+                                                    {
+                                                        "name": "Direktivstyrd",
+                                                        "value": "Förfarande, metoder och krav.Direktivstyrd",
+                                                        "description": "Variabel visar om upphandlingen är direktivstyrd. Med direktivstyrd avses som regel upphandlingar som omfattas av EU:s upphandlingsdirektiv."
+                                                    },
+                                                    {
+                                                        "name": "Förfarande",
+                                                        "value": "Förfarande, metoder och krav.Förfarande",
+                                                        "description": "Variabeln visar vilken typ av upphandlingsförfarande som används i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Typ av avtal",
+                                                        "value": "Förfarande, metoder och krav.Typ av avtal",
+                                                        "description": "Variabeln visar om upphandlingen avser tecknande av kontrakt eller ingående av ramavtal."
+                                                    },
+                                                    {
+                                                        "name": "Dynamiskt inköpssystem",
+                                                        "value": "Förfarande, metoder och krav.Dynamiskt inköpssystem",
+                                                        "description": "Variabeln visar om upphandlingen avser inrättande av ett dynamiskt inköpssystem."
+                                                    },
+                                                    {
+                                                        "name": "Elektronisk auktion",
+                                                        "value": "Förfarande, metoder och krav.Elektronisk auktion",
+                                                        "description": "Variabeln visar om elektronisk auktion har använts i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Anbudsområden",
+                                                        "value": "Förfarande, metoder och krav.Anbudsområden",
+                                                        "description": "Variabeln visar om upphandlingen är indelad flera anbudsområden."
+                                                    },
+                                                    {
+                                                        "name": "Samordnad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Samordnad upphandling",
+                                                        "description": "Variabeln visar om upphandlingen är samordnad eller inte. Med samordnad avses att upphandlingen genomförs av flera köpare tillsammans."
+                                                    },
+                                                    {
+                                                        "name": "Miljömässigt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Miljömässigt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att minska upphandlingens miljöpåverkan."
+                                                    },
+                                                    {
+                                                        "name": "Socialt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Socialt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att uppfylla sociala mål."
+                                                    },
+                                                    {
+                                                        "name": "Innovationsupphandling",
+                                                        "value": "Förfarande, metoder och krav.Innovationsupphandling",
+                                                        "description": "Variabeln visar om upphandlingen syftar till att främja innovation genom att efterfråga eller tillåta nya lösningar när byggentreprenader, varor eller tjänster upphandlas."
+                                                    },
+                                                    {
+                                                        "name": "Reserverad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Reserverad upphandling",
+                                                        "description": "Variabeln visar om deltagandet i upphandlingen är reserverat för särskilda organisationer."
+                                                    },
+                                                    {
+                                                        "name": "Reserverat genomförande",
+                                                        "value": "Förfarande, metoder och krav.Reserverat genomförande",
+                                                        "description": "Variabeln visar om genomförandet av kontraktet måste ske inom ramen för program för skyddad anställning."
+                                                    },
+                                                    {
+                                                        "name": "Annonsdatabas",
+                                                        "value": "Förfarande, metoder och krav.Annonsdatabas",
+                                                        "description": "Variabeln visar namnet på den annonsdatabas där upphandlingen ursprungligen publicerades."
+                                                    },
+                                                    {
+                                                        "name": "Överprövad",
+                                                        "value": "Förfarande, metoder och krav.Överprövad",
+                                                        "description": "Variabeln visar om upphandlingen har överprövats eller inte."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per upphandling",
+                                                "text": "Variabler som ger statistik om en specifik upphandling.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlings-ID",
+                                                        "value": "Information per upphandling.Upphandlings-ID",
+                                                        "description": "Med upphandlings-ID avses ett unikt identifikationsnummer för upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Upphandlingens titel",
+                                                        "value": "Information per upphandling.Upphandlingens titel",
+                                                        "description": "Variabeln visar namnet på upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Publiceringsdatum",
+                                                        "value": "Information per upphandling.Publiceringsdatum",
+                                                        "description": "Variabeln visar upphandlingens publiceringsdatum."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per anbudsområde",
+                                                "text": "Variabler som ger statistik om ett specifikt anbudsområde.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Anbudsområdes-ID",
+                                                        "value": "Information per anbudsområde.Anbudsområdes-ID",
+                                                        "description": "Med anbudsområdes-ID avses ett unikt identifikationsnummer för ett anbudsområde i en upphandling."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Leverantör",
+                                        "text": "Från vem köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Leverantör",
+                                                "text": "Variabler som ger statistik om vem som tilldelas kontrakt eller ramavtal.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för leverantör",
+                                                        "value": "Leverantör.Namn för leverantör",
+                                                        "description": "Variabeln visar det officiella namnet på leverantören. Med leverantör avses anbudsgivare."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för leverantör",
+                                                        "value": "Leverantör.Sektor för leverantör",
+                                                        "description": "Variabeln visar vilken sektor som leverantören tillhör. Sektor är privat eller offentlig."
+                                                    },
+                                                    {
+                                                        "name": "Företagsstorlek för leverantör",
+                                                        "value": "Leverantör.Företagsstorlek för leverantör",
+                                                        "description": "Variabeln visar leverantörens storleksklass enligt EU:s definition av företagsstorlek."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för leverantör",
+                                                        "value": "Leverantör.Juridisk form för leverantör",
+                                                        "description": "Variabel visar juridisk form för leverantören."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Avdelning för leverantör",
+                                                        "value": "Leverantör.SNI-Avdelning för leverantör",
+                                                        "description": "Variabeln visar SNI-Avdelning för leverantören. SNI avser standard för svensk näringsgrensindelning."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Huvudgrupp för leverantör",
+                                                        "value": "Leverantör.SNI-Huvudgrupp för leverantör",
+                                                        "description": "Variabeln visar SNI-Huvudgrupp för leverantören. SNI avser standard för svensk näringsgrensindelning."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Grupp för leverantör",
+                                                        "value": "Leverantör.SNI-Grupp för leverantör",
+                                                        "description": "Variabeln visar SNI-Grupp för leverantören. SNI avser standard för svensk näringsgrensindelning."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Undergrupp för leverantör",
+                                                        "value": "Leverantör.SNI-Undergrupp för leverantör",
+                                                        "description": "Variabeln visar SNI-Undergrupp för leverantören. SNI avser standard för svensk näringsgrensindelning."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Detaljgrupp för leverantör",
+                                                        "value": "Leverantör.SNI-Detaljgrupp för leverantör",
+                                                        "description": "Variabeln visar SNI-Detaljgrupp för leverantören. SNI avser standard för svensk näringsgrensindelning."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "unit": "Antal upphandlingar",
+                        "distributedUnits": [
+                            {
+                                "distributedUnit": "Upphandlingar, Bas.Antal upphandlingar",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": "Köpare",
+                                        "text": "Vem köper?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Köpare",
+                                                "text": "Variabler som ger statistik om vem som upphandlar utifrån olika variabler.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för köpare",
+                                                        "value": "Köpare.Namn för köpare",
+                                                        "description": "Variabeln visar det officiella namnet på köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Organisationsnummer för köpare",
+                                                        "value": "Köpare.Organisationsnummer för köpare",
+                                                        "description": "Variabeln visar organisationsnummer för köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för köpare",
+                                                        "value": "Köpare.Sektor för köpare",
+                                                        "description": "Variabeln visar vilken sektor som köparen tillhör. Sektor är stat, region, kommun eller annat."
+                                                    },
+                                                    {
+                                                        "name": "Delsektor för köpare",
+                                                        "value": "Köpare.Delsektor för köpare",
+                                                        "description": "Variabeln visar vilken delsektor som köparen tillhör. Delsektor är stat, region, kommun samt organisationer ägda av dessa."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för köpare",
+                                                        "value": "Köpare.Juridisk form för köpare",
+                                                        "description": "Variabeln visar juridisk form för köparen."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Avdelning för köpare",
+                                                        "value": "Köpare.SNI-Avdelning för köpare",
+                                                        "description": "Variabeln visar SNI-Avdelning för köparen. SNI avser standard för svensk näringsgrensindelning."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Föremålet för inköp",
+                                        "text": "Vad köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Upphandingsslag",
+                                                "text": "Variabler som ger statistik om vad som upphandlas efter upphandlingsslag.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlingsslag",
+                                                        "value": "Upphandingsslag.Upphandlingsslag",
+                                                        "description": "Variabeln visar om upphandlingen huvudsakligen avser varor, tjänster eller byggentreprenader."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Huvudsaklig CPV-kod",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt CPV. Variabeln visar klassificering av upphandlingen enligt huvudsaklig CPV-kod.",
+                                                "properties": [
+                                                    {
+                                                        "name": "CPV-Huvudgrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Huvudgrupp",
+                                                        "description": "Huvudgrupp avser de två första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Grupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Grupp",
+                                                        "description": "Grupp avser de tre första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Undergrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Undergrupp",
+                                                        "description": "Undergrupp avser de fyra första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Kategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Kategori",
+                                                        "description": "Kategori avser de fem första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Underkategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Underkategori",
+                                                        "description": "Ytterligare precisering inom varje CPV-kategori."
+                                                    },
+                                                    {
+                                                        "name": "Huvudsaklig CPV-kod",
+                                                        "value": "Huvudsaklig CPV-kod.Huvudsaklig CPV-kod",
+                                                        "description": "Variabeln visar klassificering av upphandlingen enligt CPV-kod. Huvudklassificeringskod avser den kod som bäst beskriver föremålet för upphandlingen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Genomförande",
+                                        "text": "Hur köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Förfarande, metoder och krav",
+                                                "text": "Variabler som ger statistik om hur upphandlingen har genomförts.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Rättslig grund",
+                                                        "value": "Förfarande, metoder och krav.Rättslig grund",
+                                                        "description": "Variabeln visar den rättsliga grunden enligt vilken upphandlingen genomförs."
+                                                    },
+                                                    {
+                                                        "name": "Direktivstyrd",
+                                                        "value": "Förfarande, metoder och krav.Direktivstyrd",
+                                                        "description": "Variabeln visar om upphandlingen är direktivstyrd. Med direktivstyrd avses som regel upphandlingar som omfattas av EU:s upphandlingsdirektiv."
+                                                    },
+                                                    {
+                                                        "name": "Förfarande",
+                                                        "value": "Förfarande, metoder och krav.Förfarande",
+                                                        "description": "Variabeln visar vilken typ av upphandlingsförfarande som används i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Typ av avtal",
+                                                        "value": "Förfarande, metoder och krav.Typ av avtal",
+                                                        "description": "Variabeln visar om upphandlingen avser tecknande av kontrakt eller ingående av ramavtal."
+                                                    },
+                                                    {
+                                                        "name": "Dynamiskt inköpssystem",
+                                                        "value": "Förfarande, metoder och krav.Dynamiskt inköpssystem",
+                                                        "description": "Variabeln visar om upphandlingen avser inrättande av ett dynamiskt inköpssystem."
+                                                    },
+                                                    {
+                                                        "name": "Elektronisk auktion",
+                                                        "value": "Förfarande, metoder och krav.Elektronisk auktion",
+                                                        "description": "Variabeln visar om elektronisk auktion har använts i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Anbudsområden",
+                                                        "value": "Förfarande, metoder och krav.Anbudsområden",
+                                                        "description": "Variabeln visar om upphandlingen är indelad i flera anbudsområden."
+                                                    },
+                                                    {
+                                                        "name": "Samordnad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Samordnad upphandling",
+                                                        "description": "Variabeln visar om upphandlingen är samordnad eller inte. Med samordnad avses att upphandlingen genomförs av flera köpare tillsammans."
+                                                    },
+                                                    {
+                                                        "name": "Miljömässigt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Miljömässigt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att minska upphandlingens miljöpåverkan."
+                                                    },
+                                                    {
+                                                        "name": "Socialt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Socialt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att uppfylla sociala mål."
+                                                    },
+                                                    {
+                                                        "name": "Innovationsupphandling",
+                                                        "value": "Förfarande, metoder och krav.Innovationsupphandling",
+                                                        "description": "Variabeln visar om upphandlingen syftar till att främja innovation genom att efterfråga eller tillåta nya lösningar när byggentreprenader, varor eller tjänster upphandlas."
+                                                    },
+                                                    {
+                                                        "name": "Reserverad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Reserverad upphandling",
+                                                        "description": "Variabeln visar om deltagandet i upphandlingen är reserverat för särskilda organisationer."
+                                                    },
+                                                    {
+                                                        "name": "Reserverat genomförande",
+                                                        "value": "Förfarande, metoder och krav.Reserverat genomförande",
+                                                        "description": "Variabeln visar om genomförandet av kontraktet måste ske inom ramen för program för skyddad anställning."
+                                                    },
+                                                    {
+                                                        "name": "Annonsdatabas",
+                                                        "value": "Förfarande, metoder och krav.Annonsdatabas",
+                                                        "description": "Variabeln visar namnet på den annonsdatabas där upphandlingen ursprungligen publicerades."
+                                                    },
+                                                    {
+                                                        "name": "Överprövad",
+                                                        "value": "Förfarande, metoder och krav.Överprövad",
+                                                        "description": "Variabeln visar om upphandlingen har överprövats eller inte."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per upphandling",
+                                                "text": "Variabler som ger statistik om en specifik upphandling.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlings-ID",
+                                                        "value": "Information per upphandling.Upphandlings-ID",
+                                                        "description": "Med upphandlings-ID avses ett unikt identifikationsnummer för upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Upphandlingens titel",
+                                                        "value": "Information per upphandling.Upphandlingens titel",
+                                                        "description": "Variabeln visar namnet på upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Publiceringsdatum",
+                                                        "value": "Information per upphandling.Publiceringsdatum",
+                                                        "description": "Variabeln visar upphandlingens publiceringsdatum."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "distributedUnit": "Upphandlingar, Innovationstyp.Antal upphandlingar, Innovationstyp",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": null,
+                                        "text": null,
+                                        "dimensions": [
+                                            {
+                                                "heading": "Innovationsupphandling",
+                                                "text": null,
+                                                "properties": [
+                                                    {
+                                                        "name": "Typ av innovationsupphandling",
+                                                        "value": "Innovationsupphandling.Typ av innovationsupphandling",
+                                                        "description": "Variabeln visar på vilket sätt som upphandlingen genom tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet avser att minska miljöpåverkan. En upphandling kan innehålla flera olika krav."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "distributedUnit": "Upphandlingar, Miljötyp.Antal upphandlingar, Miljötyp",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": null,
+                                        "text": null,
+                                        "dimensions": [
+                                            {
+                                                "heading": "Miljömässigt hållbar upphandling",
+                                                "text": null,
+                                                "properties": [
+                                                    {
+                                                        "name": "Typ av miljömässigt hållbar upphandling",
+                                                        "value": "Miljömässigt hållbar upphandling.Typ av miljömässigt hållbar upphandling",
+                                                        "description": "Variabeln visar på vilket sätt som upphandlingen genom tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet avser att minska miljöpåverkan. En upphandling kan innehålla flera olika krav."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "distributedUnit": "Upphandlingar, Socialtyp.Antal upphandlingar, Socialtyp",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": null,
+                                        "text": null,
+                                        "dimensions": [
+                                            {
+                                                "heading": "Socialt hållbar upphandling",
+                                                "text": null,
+                                                "properties": [
+                                                    {
+                                                        "name": "Typ av socialt hållbar upphandling",
+                                                        "value": "Socialt hållbar upphandling.Typ av socialt hållbar upphandling",
+                                                        "description": "Variabeln visar på vilket sätt som upphandlingen genom tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet avser att uppnå sociala mål. En upphandling kan innehålla flera olika krav."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "unit": "Kontrakterat värde",
+                        "distributedUnits": [
+                            {
+                                "distributedUnit": "Upphandlingar, Bas.Kontrakterat värde",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": "Köpare",
+                                        "text": "Vem köper?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Köpare",
+                                                "text": "Variabler som ger statistik om vem som upphandlar utifrån olika variabler.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för köpare",
+                                                        "value": "Köpare.Namn för köpare",
+                                                        "description": "Variabeln visar det officiella namnet på köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Organisationsnummer för köpare",
+                                                        "value": "Köpare.Organisationsnummer för köpare",
+                                                        "description": "Variabeln visar organisationsnummer för köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för köpare",
+                                                        "value": "Köpare.Sektor för köpare",
+                                                        "description": "Variabeln visar vilken sektor som köparen tillhör. Sektor är stat, region, kommun eller annat."
+                                                    },
+                                                    {
+                                                        "name": "Delsektor för köpare",
+                                                        "value": "Köpare.Delsektor för köpare",
+                                                        "description": "Variabeln visar vilken delsektor som köparen tillhör. Delsektor är stat, region, kommun samt organisationer ägda av dessa."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för köpare",
+                                                        "value": "Köpare.Juridisk form för köpare",
+                                                        "description": "Variabeln visar juridisk form för köparen."
+                                                    },
+                                                    {
+                                                        "name": "SNI-Avdelning för köpare",
+                                                        "value": "Köpare.SNI-Avdelning för köpare",
+                                                        "description": "Variabeln visar SNI-Avdelning för köparen. SNI avser standard för svensk näringsgrensindelning."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Föremålet för inköp",
+                                        "text": "Vad köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Upphandlingsslag",
+                                                "text": "Variabler som ger statistik om vad som upphandlas efter upphandlingsslag.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlingsslag",
+                                                        "value": "Upphandlingsslag.Upphandlingsslag",
+                                                        "description": "Variabeln visar om upphandlingen huvudsakligen avser varor, tjänster eller byggentreprenader."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Huvudsaklig CPV-kod",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt CPV. Variabeln visar klassificering av upphandlingen enligt huvudsaklig CPV-kod.",
+                                                "properties": [
+                                                    {
+                                                        "name": "CPV-Huvudgrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Huvudgrupp",
+                                                        "description": "Huvudgrupp avser de två första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Grupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Grupp",
+                                                        "description": "Grupp avser de tre första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Undergrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Undergrupp",
+                                                        "description": "Undergrupp avser de fyra första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Kategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Kategori",
+                                                        "description": "Kategori avser de fem första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Underkategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Underkategori",
+                                                        "description": "Ytterligare precisering inom varje CPV-kategori."
+                                                    },
+                                                    {
+                                                        "name": "Huvudsaklig CPV-kod",
+                                                        "value": "Huvudsaklig CPV-kod.Huvudsaklig CPV-kod",
+                                                        "description": "Variabeln visar klassificering av upphandlingen enligt CPV-kod. Huvudklassificeringskod avser den kod som bäst beskriver föremålet för upphandlingen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Genomförande",
+                                        "text": "Hur köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Förfarande, metoder och krav",
+                                                "text": "Variabler som ger statistik om hur upphandlingen har genomförts.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Rättslig grund",
+                                                        "value": "Förfarande, metoder och krav.Rättslig grund",
+                                                        "description": "Variabeln visar den rättsliga grunden enligt vilken upphandlingen genomförs."
+                                                    },
+                                                    {
+                                                        "name": "Direktivstyrd",
+                                                        "value": "Förfarande, metoder och krav.Direktivstyrd",
+                                                        "description": "Variabel visar om upphandlingen är direktivstyrd. Med direktivstyrd avses som regel upphandlingar som omfattas av EU:s upphandlingsdirektiv."
+                                                    },
+                                                    {
+                                                        "name": "Förfarande",
+                                                        "value": "Förfarande, metoder och krav.Förfarande",
+                                                        "description": "Variabeln visar vilken typ av upphandlingsförfarande som används i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Typ av avtal",
+                                                        "value": "Förfarande, metoder och krav.Typ av avtal",
+                                                        "description": "Variabeln visar om upphandlingen avser tecknande av kontrakt eller ingående av ramavtal."
+                                                    },
+                                                    {
+                                                        "name": "Dynamiskt inköpssystem",
+                                                        "value": "Förfarande, metoder och krav.Dynamiskt inköpssystem",
+                                                        "description": "Variabeln visar om upphandlingen avser inrättande av ett dynamiskt inköpssystem."
+                                                    },
+                                                    {
+                                                        "name": "Elektronisk auktion",
+                                                        "value": "Förfarande, metoder och krav.Elektronisk auktion",
+                                                        "description": "Variabeln visar om elektronisk auktion har använts i upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Anbudsområden",
+                                                        "value": "Förfarande, metoder och krav.Anbudsområden",
+                                                        "description": "Variabeln visar om upphandlingen är indelad i flera anbudsområden."
+                                                    },
+                                                    {
+                                                        "name": "Samordnad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Samordnad upphandling",
+                                                        "description": "Variabeln visar om upphandlingen är samordnad eller inte. Med samordnad avses att upphandlingen genomförs av flera köpare tillsammans."
+                                                    },
+                                                    {
+                                                        "name": "Miljömässigt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Miljömässigt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att minska upphandlingens miljöpåverkan."
+                                                    },
+                                                    {
+                                                        "name": "Socialt hållbar upphandling",
+                                                        "value": "Förfarande, metoder och krav.Socialt hållbar upphandling",
+                                                        "description": "Variabeln visar om upphandlingen innehåller tekniska specifikationer, kvalificeringskrav, tilldelningskriterier eller villkor för genomförande av kontraktet som syftar till att uppfylla sociala mål."
+                                                    },
+                                                    {
+                                                        "name": "Innovationsupphandling",
+                                                        "value": "Förfarande, metoder och krav.Innovationsupphandling",
+                                                        "description": "Variabeln visar om upphandlingen syftar till att främja innovation genom att efterfråga eller tillåta nya lösningar när byggentreprenader, varor eller tjänster upphandlas."
+                                                    },
+                                                    {
+                                                        "name": "Reserverad upphandling",
+                                                        "value": "Förfarande, metoder och krav.Reserverad upphandling",
+                                                        "description": "Variabeln visar om deltagandet i upphandlingen är reserverat för särskilda organisationer."
+                                                    },
+                                                    {
+                                                        "name": "Reserverat genomförande",
+                                                        "value": "Förfarande, metoder och krav.Reserverat genomförande",
+                                                        "description": "Variabeln visar om genomförandet av kontraktet måste ske inom ramen för program för skyddad anställning."
+                                                    },
+                                                    {
+                                                        "name": "Annonsdatabas",
+                                                        "value": "Förfarande, metoder och krav.Annonsdatabas",
+                                                        "description": "Variabeln visar namnet på den annonsdatabas där upphandlingen ursprungligen publicerades."
+                                                    },
+                                                    {
+                                                        "name": "Överprövad",
+                                                        "value": "Förfarande, metoder och krav.Överprövad",
+                                                        "description": "Variabeln visar om upphandlingen har överprövats eller inte."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per upphandling",
+                                                "text": "Variabler som ger statistik om en specifik upphandling.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlings-ID",
+                                                        "value": "Information per upphandling.Upphandlings-ID",
+                                                        "description": "Med upphandlings-ID avses ett unikt identifikationsnummer för upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Upphandlingens titel",
+                                                        "value": "Information per upphandling.Upphandlingens titel",
+                                                        "description": "Variabeln visar namnet på upphandlingen."
+                                                    },
+                                                    {
+                                                        "name": "Publiceringsdatum",
+                                                        "value": "Information per upphandling.Publiceringsdatum",
+                                                        "description": "Variabeln visar upphandlingens publiceringsdatum."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "product": "annonserade-valfrihetssystem-i-sverige",
+                "units": [
+                    {
+                        "unit": "Antal valfrihetsystem",
+                        "distributedUnits": [
+                            {
+                                "distributedUnit": "Valfrihetssystem.Antal valfrihetsystem",
+                                "measurements": [
+                                    {
+                                        "name": "Summa",
+                                        "value": "SUM",
+                                        "description": "Summera det valda mätvärdet"
+                                    },
+                                    {
+                                        "name": "Procent",
+                                        "value": "Percentage",
+                                        "description": "Räknar andel"
+                                    },
+                                    {
+                                        "name": "Medelvärde",
+                                        "value": "AVG",
+                                        "description": "Visa medelvärdet av mätvärdet"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "heading": "Köpare",
+                                        "text": "Vem köper?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Köpare",
+                                                "text": "Variabler som ger statistik om vem som upphandlar utifrån olika variabler.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Namn för köpare",
+                                                        "value": "Köpare.Namn för köpare",
+                                                        "description": "Variabeln visar det officiella namnet på köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Organisationsnummer för köpare",
+                                                        "value": "Köpare.Organisationsnummer för köpare",
+                                                        "description": "Variabeln visar organisationsnummer för köparen. Med köpare avses upphandlande organisation."
+                                                    },
+                                                    {
+                                                        "name": "Sektor för köpare",
+                                                        "value": "Köpare.Sektor för köpare",
+                                                        "description": "Variabeln visar vilken sektor som köparen tillhör."
+                                                    },
+                                                    {
+                                                        "name": "Delsektor",
+                                                        "value": "Köpare.Delsektor",
+                                                        "description": "Variabeln visar vilken delsektor som köparen tillhör."
+                                                    },
+                                                    {
+                                                        "name": "Juridisk form för köpare",
+                                                        "value": "Köpare.Juridisk form för köpare",
+                                                        "description": "Variabeln visar juridisk form för köparen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Föremålet för inköp",
+                                        "text": "Vad köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Upphandlingsslag",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt indelning efter upphandlingsslag.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Upphandlingsslag",
+                                                        "value": "Upphandlingsslag.Upphandlingsslag",
+                                                        "description": "Variabeln visar om upphandlingen huvudsakligen avser varor, tjänster eller byggentreprenader."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Tjänstekategori",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt indelning efter tjänstekategorier.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Tjänstekategori",
+                                                        "value": "Tjänstekategori.Tjänstekategori",
+                                                        "description": "Variabeln visar klassificering av valfrihetssystemet enligt indelning efter tjänstekategorier."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Huvudsaklig CPV-kod",
+                                                "text": "Variabler som ger statistik om vad som upphandlas enligt CPV. Variabeln visar klassificering enligt huvudsaklig CPV-kod.",
+                                                "properties": [
+                                                    {
+                                                        "name": "CPV-Huvudgrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Huvudgrupp",
+                                                        "description": "Huvudgrupp avser de två första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Grupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Grupp",
+                                                        "description": "Grupp avser de tre första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Undergrupp",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Undergrupp",
+                                                        "description": "Undergrupp avser de fyra första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Kategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Kategori",
+                                                        "description": "Kategori avser de fem första siffrorna i CPV-koden."
+                                                    },
+                                                    {
+                                                        "name": "CPV-Underkategori",
+                                                        "value": "Huvudsaklig CPV-kod.CPV-Underkategori",
+                                                        "description": "Ytterligare precisering inom varje CPV-kategori."
+                                                    },
+                                                    {
+                                                        "name": "Huvudsaklig CPV-kod",
+                                                        "value": "Huvudsaklig CPV-kod.Huvudsaklig CPV-kod",
+                                                        "description": "Variabeln visar klassificering av upphandlingen enligt CPV-kod. Huvudklassificeringskod avser den kod som bäst beskriver föremålet för upphandlingen."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "heading": "Genomförande",
+                                        "text": "Hur köper vi?",
+                                        "dimensions": [
+                                            {
+                                                "heading": "Förfarande, metoder och krav",
+                                                "text": "Variabler som ger statistik om hur upphandlingen har genomförts.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Rättslig grund",
+                                                        "value": "Förfarande, metoder och krav.Rättslig grund",
+                                                        "description": "Variabeln visar den rättsliga grunden enligt vilken upphandlingen genomförs."
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "heading": "Information per upphandling",
+                                                "text": "Variabler som ger statistik om ett specifikt valfrihetssystem.",
+                                                "properties": [
+                                                    {
+                                                        "name": "Valfrihetssystem-ID",
+                                                        "value": "Information per upphandling.Valfrihetssystem-ID",
+                                                        "description": "Med valfrihetssystem-ID avses ett unikt identifikationsnummer för valfrihetssystemet."
+                                                    },
+                                                    {
+                                                        "name": "Titel på valfrihetssystemet",
+                                                        "value": "Information per upphandling.Titel på valfrihetssystemet",
+                                                        "description": "Variabeln visar namnet på valfrihetssystemet."
+                                                    },
+                                                    {
+                                                        "name": "Referensdatum",
+                                                        "value": "Information per upphandling.Referensdatum",
+                                                        "description": "Variabeln visar referensdatum för statistiken."
+                                                    },
+                                                    {
+                                                        "name": "Förfrågningsunderlag",
+                                                        "value": "Information per upphandling.Förfrågningsunderlag",
+                                                        "description": "Variabeln visar länk till förfrågningsunderlag för valfrihetssystemet."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
